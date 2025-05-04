@@ -1,12 +1,13 @@
-export const addStudent = (newStudent) => {
-    const options = {
-        method: "POST",
-        body: JSON.stringify(newStudent),
-        headers: {
-            "Content-Type": "application/json; charset=UTF-8"
+export const addStudent = async (newStudent) => {
+    try {
+        const options = {
+            method: "POST",
+            body: JSON.stringify(newStudent)
     }
-}
-    return fetch("http://localhost:3000/students", options).then((response) =>
-    response.json("")
-  );
+        return await fetch("http://localhost:3000/students", options).then((response) =>
+        response.json(""));
+    } catch (error) {
+        console.error(error);
+        } 
+    
 }

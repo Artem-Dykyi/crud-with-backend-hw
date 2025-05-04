@@ -37,11 +37,20 @@
     },
     {
       "id": "4",
-      "name": "Anastasia Ivanovadkdkdk",
+      "name": "Anastaninin",
       "age": "18888888",
       "course": "Data Science",
       "skills": "Python,Pandas,Machine Learning",
       "email": "anastasia.ivanova@example.com",
+      "isEnrolled": false
+    },
+    {
+      "id": "fd61",
+      "name": "kola",
+      "age": "22888",
+      "course": "lolik",
+      "skills": "skili",
+      "email": "lsl@lskjh",
       "isEnrolled": false
     }
   ]
